@@ -1,0 +1,452 @@
+﻿@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+  color: #333333;
+  font-size: 15px;
+  line-height: 2;
+}
+
+p,h1,h2,h3,h4,h5,h6,th,td,dt,dd {
+  margin-top: 0;
+  font-family: 'Shippori Mincho', serif;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color:#2e1515;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#752e2e;
+}
+
+header {
+  width: 960px;
+  height: 100px;
+  position: fixed;
+  inset: 0;
+  margin: 0 auto;
+  padding:0 200px;
+  top:0;
+  z-index:1;
+  opacity:0.9;
+}
+
+.logo {
+  float: left;
+  font-family: 'Shippori Mincho', serif;
+  font-size:30px;
+  color:#2e1515;
+  text-decoration: none;
+  margin-top: 25px;
+}
+
+.global-nav {
+  float: right;
+  margin-top: 35px;
+}
+
+.global-nav li {
+  float: left;
+  margin: 0 20px;
+  font-size: 20px;
+  list-style: none;
+}
+
+.global-nav li a {
+  color: #2e1515;
+  font-family: 'Shippori Mincho', serif;
+}
+
+.global-nav li a:hover {
+  color:#752e2e;
+}
+
+.sns-nav {
+  float: right;
+  margin-top: 28px;
+}
+
+.sns-icon {
+  width:25px;
+  transition:all 0.2s;
+}
+
+.sns-nav li {
+  float: left;
+  margin: 0 20px;
+  font-size: 20px;
+  list-style: none;
+}
+
+.sns-nav li a {
+  color: #2e1515;
+  font-family: 'Shippori Mincho', serif;
+}
+
+.sns-nav li a:hover {
+  color:#752e2e;
+}
+
+.sns-icon:hover {
+  transform:scale(1.5,1.5);
+}
+
+#wrap {
+  clear: both;
+  margin-top: 120px;
+  padding: 35px 0;
+  text-align:center;
+}
+
+.content {
+  width: 960px;
+  margin: 150px auto;
+  padding-top:120px;
+}
+
+.content h2 {
+  margin-bottom:0;
+}
+
+footer {
+  color: #2e1515;
+  padding: 10px 0;
+}
+
+footer .creater {
+  float:left;
+}
+
+footer .copyright {
+  float:right;
+}
+
+#index h1 {
+  font-size: 100px;
+  line-height: 1;
+  color: #2e1515;
+  font-family: 'Shippori Mincho', serif;
+  margin-bottom: 50px;
+  border: none;
+}
+
+#index .content {
+  margin-top: 150px;
+}
+
+#index p {
+  font-size: 16px;
+  color: #2e1515;
+}
+
+#works h1 {
+  font-size: 50px;
+  line-height: 1;
+  color: #2e1515;
+  font-family: 'Shippori Mincho', serif;
+  margin-bottom: 20px;
+  border: none;
+}
+
+#contact h1 {
+  font-size: 50px;
+  line-height: 1;
+  color: #2e1515;
+  font-family: 'Shippori Mincho', serif;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.works-wrapper p {
+  font-size: 30px;
+  line-height: 0.5;
+  margin-bottom: 20px;
+}
+
+.contact-wrapper h2 {
+  font-size: 30px;
+  line-height: 0.5;
+  margin-bottom: 20px;
+}
+
+.contact-wrapper p {
+  font-size: 30px;
+  margin-top:100px;
+}
+
+#works .garally-wrapper {
+  padding:0 0 50px 0;
+  width: 960px;
+  margin: 0 auto;
+}
+
+#works .photo {
+  width:25%;
+}
+
+#works .filter {
+    background: rgba(0, 0, 0, 0);
+}
+
+.btn a {
+  background-color: #c4c4c43b;
+  color: #000000;
+  font-size: 20px;
+  width: 185px;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 20px;
+  border: 3px solid #000000;
+  transition:all 0.3s;
+}
+
+.btn a:hover {
+  text-decoration: none;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#index footer {
+  width: 960px;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  background-color: transparent;
+}
+
+#works footer {
+  width: 960px;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  background-color: transparent;
+}
+
+#contact footer {
+  width: 960px;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  background-color: transparent;
+}
+
+#index {
+  background-image: url(../images/bg-index.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#works {
+  background-image: url(../images/bg-index.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#contact {
+  background-image: url(../images/bg-index.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.main-center {
+  width:940px;
+  margin: 0 auto;
+}
+
+.garally {
+  display:flex;
+  flex:auto;
+  flex-wrap:wrap;
+  width: 960px;
+  margin:0 auto;
+ }
+ 
+ .garally-wrapper {
+   padding-top:80px;
+ }
+ 
+ .photo {
+   width:33.33%;
+   transition:all 0.2s;
+ }
+ 
+ .filter {
+  background: #000;
+ }
+  
+ .filter-img {
+  cursor: pointer;
+ }
+ 
+ .filter-img:hover {
+   opacity: .5;
+  }
+
+.about {
+  margin-top:100px;
+}
+
+.about h2 {
+  font-size:30px;
+  margin-bottom:0;
+  line-height:1;
+}
+
+
+
+th {
+  width: 240px;
+  background-color: #d6d2cd;
+  padding: 12px 0;
+  border: 1px solid #2e1515;
+  font-size:17px;
+}
+
+td {
+  width: 660px;
+  padding: 12px 0 12px 40px;
+  border: 1px solid #2e1515;
+  font-size:17px;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.map {
+  margin-top:100px;
+}
+
+.contact-sns {
+  width:960px;
+  margin:0 auto;
+}
+
+#contact .btn {
+  margin:0 0 135px 0;
+}
+
+.twitter-btn {
+  float:left;
+  padding-left:200px;
+}
+
+.instagram-btn {
+  float:right;
+  padding-right:200px;
+}
+
+.clear-fix {
+  clear:  both;
+}
+
+
+/* readmoreに関する記述 */
+.about p {
+  text-align: center;
+  font-size: 16px;
+  color: #2e1515;
+  line-height: 2.5;
+  margin: 0;
+}
+
+#text-wrap {
+  width: 50%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 70px 70px 0 70px;
+}
+
+.hide-text {
+  display: none;
+  padding-top: 90px;
+}
+
+.hide-text h2 {
+  padding-bottom: 60px;
+}
+
+
+button.readmore {
+  position: relative;
+  height: 80px;
+  width: 90px;
+  margin: 40px auto;
+  display: block;
+  background-color: transparent;
+  color: #2e1515;
+  padding-bottom: 40px;
+  border: none;
+  outline: 0;
+  transition: .5s;
+  -erbkit-transition: .5s;
+}
+
+button.readmore::after {
+  content: " ";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-top: solid 3px #2e1515;
+  border-right: solid 3px #2e1515;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  right: 28px;
+  top: 25px;
+  transition: .5s;
+  -erbkit-transition: .5s;
+}
+
+button.readmore:hover::after {
+  top: 40px;
+}
+
+.on-click {
+  color: transparent!important;
+}
+
+.on-click {
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+}
+/* ここまで */
+
+/* お問い合わせ */
+
+/* ここまで */
+
+#index #wrap {
+  background-color: transparent;
+  margin-top: 0;
+  padding: 0;
+}
+
+@media (max-width:1300px) {
+  header {
+    width: 660px;
+    height: 100px;
+    position: relative;
+    inset: 0;
+    padding:0;
+  }
+}
